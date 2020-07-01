@@ -45,7 +45,8 @@ prefix = 'Independent Contractor Services on'
 
 logsToWrite = []
 
-end_date = date.today()
+current_month_start = date.today().replace(day=1)
+end_date = current_month_start - timedelta(days=1)
 start_date = end_date.replace(day=1)
 print('start_date', start_date)
 print('end_date', end_date)
