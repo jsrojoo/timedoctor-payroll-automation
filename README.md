@@ -8,7 +8,7 @@ The script spits out a csv of your work logs so you can easily copy pasta.
  [timedoctor]
  access_token=youraccesstoken
  ```
- - run: ```python main.py```
+ - run: ```python tpa.py```
 
 ### Output:
  - worklog.csv
